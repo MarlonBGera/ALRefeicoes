@@ -1,0 +1,474 @@
+/* CSS Global */
+a{
+	text-decoration: none;
+	color: #000;
+}
+h2{
+	font-size: 18pt;
+}
+.botao_visualizar{
+	width: 167px;
+    height: 19px;
+    font-family: 'Times New Roman';
+    border: 1px solid rgb(114,0,0);
+    float: right;
+    text-align: center;
+    cursor: pointer;
+    margin-bottom: 8px;
+}
+.botao_visualizar:hover{
+	border: 1px solid rgb(231,0,0);
+}
+/* CSS Index */
+.topo_logo{
+	width: 200px;
+	height: 150px;
+	background-image: url(../img/logo.png);
+	background-size: 200px 150px;
+	margin: 15px auto 0px auto;
+}
+.meio{
+	width: 202px;
+	margin: 15px auto 0px auto;
+}
+input[type='text'], input[type='password'], input[type='date'], input[type='number']{
+	width: 157px;
+	height: 20px;
+	margin-bottom: 5px;
+	border: 1px solid rgb(114,0,0);
+	outline: 0;
+}
+input[type='number']:hover, input[type='text']:hover, .label_input select:hover, input[type='text']:focus, input[type='password']:hover, input[type='password']:focus,  input[type='date']:hover,  input[type='date']:focus{
+	border: 1px solid rgb(231,0,0);
+}
+.buton_submit{
+	width: 202px;
+	height: 30px;
+	margin: 10px auto 0px auto;
+	background: none;
+	border: 1px solid rgb(114,0,0);
+	cursor: pointer;
+	outline: 0;
+}
+.buton_submit:hover, .buton_submit:focus{
+	border: 1px solid rgb(231,0,0);
+}
+.label_input select{
+	width: 160px;
+	height: 23px;
+	margin-bottom: 5px;
+	border: 1px solid rgb(114,0,0);
+	outline: 0;
+}
+.input_radio{
+	width: 162px;
+    margin-bottom: 5px;
+    outline: 0;
+    float: right;
+    font-size: 13px;
+}
+.input_radio div{
+	width: 60px;
+    float: left;
+    margin-top: 3px;
+    margin-left: 10px;
+}
+#opcoes_none{
+	display: none;
+}
+#primeira_parcela{
+	display: none;
+}
+#segunda_parcela{
+	display: none;
+}
+#terceira_parcela{
+	display: none;
+}
+#quarta_parcela{
+	display: none;
+}
+#quinta_parcela{
+	display: none;
+}
+#sexta_parcela{
+	display: none;
+}
+/* Começando a pagina Home */
+.topo{
+	width: 700px;
+	height: 150px;
+	margin: 0px auto;
+}
+.logo{
+	width: 200px;
+	height: 150px;
+	background-image: url(../img/logo.png);
+	background-size: 200px 150px;
+	float: left;
+}
+.nome_empresa{
+	width: 290px;
+	float: left;
+	margin-left: 15px;
+	margin-top: 30px;
+	text-align: center;
+}
+.usuario{
+	float: left;
+	margin: 25px 0px 0px 25px;
+}
+.botao_top{
+	width: 170px;
+    border: 1px solid rgb(114,0,0);
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 5px;
+    background: #FFF;
+    font-family: 'Times New Roman';
+}
+.botao_top:hover{
+	border-color: rgb(231,0,0);
+}
+.nome{
+	width: 170px;
+}
+.logout{
+	width: 170px;
+}
+.menu{
+	width: 728px;
+	margin: 0px auto;
+}
+.drop{
+	width: 165px;
+	height: 20px;
+	padding: 5px;
+	font-size: 14pt;
+	border: 1px solid rgb(114,0,0);
+	border-radius: 4px;
+	cursor: pointer;
+	float: left;
+	margin-right: 5px;
+	text-align: center;
+	background: #FFF;
+}
+.drop:hover{
+	border: 1px solid rgb(231,0,0);
+}
+.drop_menu{
+	border: 1px solid rgb(114,0,0);
+	border-bottom-left-radius: 4px;
+	border-bottom-right-radius: 4px;
+	margin-top: 3px;
+	display: none;
+	background: #FFF;
+	position: relative;
+}
+.drop:hover .drop_menu{
+	display: block;
+}
+.menu_drop:hover{
+	border: 1px solid rgb(231,0,0);
+	background: #FFF;
+}
+.corpo{
+	width: 730px;
+	height: 380px;
+	margin: 55px auto 0px auto;
+	border: 1px solid rgb(114,0,0);
+	border-radius: 4px;
+	overflow: auto;
+}
+/* CSS Rodapé */
+.rodape{
+	width: 730px;
+	font-size: 8pt;
+	margin: 10px auto 0px auto;
+	text-align: right;
+}
+/* Marca dagua */
+.marca_dagua{
+	position: fixed;
+	width: 200px;
+	height: 150px;
+	background-image: url(../img/logo-opacity.png);
+	background-size: 200px 150px;
+	margin: 100px 0px 0px 250px;
+}
+.botao_home{
+	width: 165px;
+    height: 20px;
+    padding: 5px;
+    font-size: 14pt;
+    border: 1px solid rgb(114,0,0);
+    border-radius: 4px;
+    cursor: pointer;
+    float: left;
+    margin: 100px 0px 0px 125px;
+    text-align: center;
+    background: #FFF;
+}
+.botao_home:hover{
+	border-color: rgb(231,0,0);
+}
+#fundo_modal{
+	position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.6);
+    z-index: 100;
+    display: none;
+}
+.cabecalho{
+	width: 980px;
+	height: 20px;
+	float: left;
+	margin-bottom: 15px;
+	border-bottom: 1px solid rgba(231,0,0,0.6);
+}
+#new_user{
+	width: 1000px;
+	height: 150px;
+	background: rgb(255,255,255);
+	position: absolute;
+	top: 40%;
+	left: 12.5%;
+	z-index: 1000;
+	text-align: center;
+	display: none;
+}
+#change_pass{
+	width: 1000px;
+	height: 150px;
+	background: rgb(255,255,255);
+	position: absolute;
+	top: 40%;
+	left: 12.5%;
+	z-index: 1000;
+	text-align: center;
+	display: none;
+}
+#users{
+	width: 1000px;
+	height: 400px;
+	background: rgb(255,255,255);
+	position: absolute;
+	top: 15%;
+	left: 12.5%;
+	z-index: 1000;
+	text-align: center;
+	display: none;
+}
+#conteudo_modal{
+	width: 1000px;
+	height: 500px;
+	background: rgb(255,255,255);
+	position: absolute;
+	top: 15%;
+	left: 11.5%;
+	z-index: 1000;
+	text-align: center;
+	display: none;
+}
+.lancamento_local{
+	width: 1000px;
+	height: 470px;
+	background: rgb(255,255,255);
+	text-align: center;
+	margin: 0px auto;
+}
+.lancamento_externo{
+	width: 1000px;
+	height: 470px;
+	background: rgb(255,255,255);
+	text-align: center;
+	margin: 0px auto;
+}
+.cabecalho_atualizar{
+	margin: 0px auto 0px auto;
+}
+.text_menor{
+	font-size: 10pt;
+}
+.ativo_users{
+	width: 1000px;
+    height: 400px;
+    overflow-y: auto;
+}
+.ativo_users form{
+	margin: 0px auto 0px auto;
+}
+.div_cabecalho_atualizar{
+	width: 200px;
+    border: 1px solid rgba(231,0,0,0.6);
+    float: left;
+    margin-left: 2.5px;
+    margin-right: 2.5px;
+    margin-top: 1px;
+    cursor: default;
+    font-weight: bold;
+}
+.div_cabecalho_atualizar_especial{
+	width: 98px;
+	height: 18px;
+    border: 1px solid rgba(231,0,0,0.6);
+    float: left;
+    margin-left: 2.5px;
+    margin-right: 2.5px;
+    margin-top: 1px;
+    cursor: default;
+    font-weight: bold;
+}
+.div_cabecalho_atualizar_acao{
+	width: 50px;
+    border: 1px solid rgba(231,0,0,0.6);
+    float: left;
+    margin-left: 2.5px;
+    margin-right: 2.5px;
+    margin-top: 1px;
+    cursor: default;
+    font-weight: bold;
+}
+.infor_atualizar{
+	width: 200px;
+    border: 1px solid rgba(231,0,0,0.6);
+    float: left;
+    margin-left: 2.5px;
+    margin-right: 2.5px;
+    margin-top: 1px;
+    cursor: default;
+    background: rgba(0,0,0,0.1)
+}
+.infor_atualizar_especial{
+	width: 98px;
+    border: 1px solid rgba(231,0,0,0.6);
+    float: left;
+    margin-left: 2.5px;
+    margin-right: 2.5px;
+    margin-top: 1px;
+    cursor: default;
+    background: rgba(0,0,0,0.1)
+}
+.botoes_acoes{
+	width: 52px;
+    height: 20px;
+    float: left;
+    margin-left: 2.5px;
+    margin-top: 1px;
+}
+.botao_editar{
+	width: 20px;
+    height: 20px;
+    border: 1px solid rgba(231,0,0,0.6);
+    outline: none;
+    background-color: transparent;
+    background-image: url(../img/editar.png);
+    background-size: 18px 18px;
+    cursor: pointer;
+}
+.botao_excluir{
+	width: 20px;
+    height: 20px;
+    border: 1px solid rgba(231,0,0,0.6);
+    outline: none;
+    background-color: transparent;
+    background-image: url(../img/delete.png);
+    background-size: 18px 18px;
+    cursor: pointer;
+}
+.ativo_users select{
+	width: 52px;
+	height: 20px;
+    border: 1px solid rgba(231,0,0,0.6);
+    float: left;
+    margin-left: 2.5px;
+    margin-right: 2.5px;
+    margin-top: 1px;
+    outline: none;
+}
+.novo_usuario{
+	width: 585px;
+    margin: 0px auto 15px auto;
+}
+.close{
+	width: 20px;
+	height: 20px;
+	float: left;
+	text-align: center;
+	cursor: pointer;
+	margin-bottom: 15px;
+	border-bottom: 1px solid rgba(231,0,0,0.6);
+	font-family: 'BankGothic Md BT','Berlin Sans FB';
+}
+/* CSS Cadastro Unidade de Produção */
+.conteudo{
+	width: 650px;
+	margin: 0px auto;
+	text-align: center;
+}
+.form_producao{
+	width: 560px;
+    margin: 0px auto 15px auto;
+}
+.inputs{
+	float: left;
+}
+.label_input{
+	width: 160px;
+	height: 45px;
+    margin-left: 25px;
+    float: left;
+}
+.label_input input{
+	float: right;
+}
+/* Pagina de Fonrecedor Externo */
+.aprazo{
+	display: none;
+}
+.antecipado{
+	display: none;
+}
+.avista{
+	display: none;
+}
+#parcela_unica{
+	display: none;
+}
+.parcela{
+	float: right;
+}
+/* Pagina de relatorio de fornecedor Local */
+.topo_relatorio{
+	width: 500px;
+	height: 110px;
+	margin: 0px auto;
+}
+.logo_marca{
+	width: 150px;
+	height: 110px;
+	background-image: url('../img/logo.png');
+	background-size: 150px 110px;
+	background-repeat: no-repeat;
+	float: left;
+}
+.informacoes_sistema{
+	width: 350px;
+	height: 110px;
+	float: left;
+	text-align: center;
+}
+.informacoes_sistema h3{
+	margin: 45px 0px 0px 0px;
+}
+.tabela_relatorio{
+	margin: 20px auto 0px auto;
+	border-collapse: collapse;
+}
+.tabela_relatorio td{
+	border: 1px solid;
+	padding: 3px;
+}

@@ -1,0 +1,24 @@
+body{
+	background-color:#dad6cd;
+}
+#container{
+	width:50%;
+	margin: 0 auto;
+	margin-top: 100px;
+}
+#lbl_404{
+	font-family: Helvetica, Arial, sans-serif;
+    font-weight: bold;
+	font-size: 50px;
+	
+}
+.inset-text {
+    color: rgba(255,100,0, 0.8);
+    text-shadow: 1px 4px 6px #dad6cd, 0 0 0 #000, 1px 4px 6px #dad6cd;
+}
+#lbl{
+	font-size: 25px;
+	font-family: "tahoma", sans-serif;
+	color: #0c1021;
+    
+}
